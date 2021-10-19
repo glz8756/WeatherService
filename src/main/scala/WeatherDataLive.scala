@@ -1,7 +1,6 @@
-import Util.DomainError
-import Util.DomainError.ParsingError
+import DomainError.ParsingError
 import sttp.client3.{HttpURLConnectionBackend, UriContext, basicRequest}
-import io.circe.parser.{parse}
+import io.circe.parser.parse
 import model.WeatherData.{WeatherOneCall, WeatherReport}
 import io.circe.generic.auto._
 

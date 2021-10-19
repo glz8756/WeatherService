@@ -1,4 +1,3 @@
-package Util
 
 sealed  trait DomainError {
   val msg: String
